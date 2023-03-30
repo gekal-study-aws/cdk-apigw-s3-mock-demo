@@ -1,0 +1,17 @@
+@apigw=0r2y5zzgaj
+
+### Mock
+GET https://{{apigw}}.execute-api.ap-northeast-1.amazonaws.com/prod/mock HTTP/1.1
+Content-Type: application/json
+
+### users(get)
+GET https://{{apigw}}.execute-api.ap-northeast-1.amazonaws.com/prod/mock/users HTTP/1.1
+Content-Type: application/json
+
+### userinfo(id=000001)
+GET https://{{apigw}}.execute-api.ap-northeast-1.amazonaws.com/prod/mock/users/000001 HTTP/1.1
+Content-Type: application/json
+
+### userinfo(id=000002)
+GET https://{{apigw}}.execute-api.ap-northeast-1.amazonaws.com/prod/mock/users/000002 HTTP/1.1
+Content-Type: application/json
